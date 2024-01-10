@@ -20,8 +20,7 @@
   
     <textarea name="comments" cols="20" rows="4" placeholder="Enter your Comments"></textarea> </fieldset>
     <br>
-       <p>Select your Country</p>
-       <select name="Select Country">
+      Select your Country: <select name="Select Country">
           <option value="pakistan">Pakistan</option>
           <option value="US">US</option>
           <option value="India">India</option>
@@ -29,9 +28,15 @@
           <option value="Englang">Englang</option>
           <option value="Russia">Russia</option> </select>
 <br><br>       
-<input type="text" name="city" placeholder="City name" value="interior sindh" />
+City: <input type="text" name="city" placeholder="City name" value="karachi" />
 <br><br>
-
+<label>Age: <input type="text" name="age" maxlength="2" /></label>
+<br/ >
+<input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Male</label>
 
 <br><br>
     <button type="submit">Done</button>
